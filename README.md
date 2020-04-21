@@ -22,3 +22,5 @@
 You are all set! Utility should bip a sound when slots are available!
 
 Enjoy :)
+
+P.S.: This is tested on Mac. Windows may need few changes.
