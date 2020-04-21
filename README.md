@@ -1,14 +1,24 @@
-Cron on Mac:
-*/5 * * * * /Users/akshaylokur/Work/study/slot-checker/main.sh
 
-Slot checker:
+# Slot checker for WAANGOO :)
 
-Chrome driver:
+## Pre-requisite softwares/utilities on machine
+- python 3
+- pip
+- virtualenv
+- Chrome browser
+- Chrome browser driver
+	- https://sites.google.com/a/chromium.org/chromedriver/downloads
+- Cron scheduler
 
-Add chrome driver to classpath - e.g. /usr/local/bin on Mac:
+## Configuration
+1. `git clone git@github.com:AkshayLokur/slot-checker.git`
+2. `cd slot-checker`
+3. `virtualenv venv`
+4. `pip install -r requirements.txt`
+5. `crontab -e`
+6. Add following entry to crontab and save: 
+`*/5 * * * * /Users/akshaylokur/Work/study/slot-checker/main.sh`
 
-https://sites.google.com/a/chromium.org/chromedriver/downloads
-https://chromedriver.storage.googleapis.com/index.html?path=81.0.4044.69/
+You are all set! Utility should bip a sound when slots are available!
 
-
-
+Enjoy :)
