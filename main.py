@@ -13,4 +13,5 @@ if __name__ == "__main__":
         for i in range(50):
             return_code = call(["afplay", audio_file]) # Works on Mac
             # print('\a\a\a\a\a\a\a\a\a') # For windows may be
+    browser.close()
 
