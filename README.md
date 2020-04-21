@@ -1,3 +1,6 @@
+Cron on Mac:
+*/5 * * * * /Users/akshaylokur/Work/study/slot-checker/main.sh
+
 Slot checker:
 
 Chrome driver:
