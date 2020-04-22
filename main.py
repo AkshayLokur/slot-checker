@@ -14,7 +14,7 @@ if __name__ == "__main__":
                 print("\tFound open slot!\n")
                 # Increase Mac volume to 100%
                 call(["osascript -e 'set volume output volume 100'"], shell=True)
-                audio_file = "/System/Library/Sounds/Funk.aiff"
+                audio_file = "/System/Library/Sounds/Glass.aiff"
                 for i in range(50):
                     return_code = call(["afplay", audio_file])  # Works on Mac
                     # print('\a\a\a\a\a\a\a\a\a') # For windows may be
